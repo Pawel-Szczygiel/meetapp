@@ -1,0 +1,68 @@
+.header {
+    position: fixed;
+    top: 15px;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    user-select: none;
+    background-color: rgba(0, 0, 0, .07);
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+}
+
+
+/* .header::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 80px;
+    background: linear-gradient(to left ,rgba(14, 202, 146, 0.959) ,rgb(86, 2, 119));
+    z-index: -1;
+    filter: blur(10px);
+  } */
+  
+  .logo {
+    font-size: 2rem;
+    color: #292929;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+  }
+
+  .list {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .list li {
+    margin-left: 2rem;
+  }
+
+  .list li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #636363;   
+    transition: color .2s ease-in; 
+  }
+
+  .list li a:hover,
+  .list li a:active {
+    color: #521111;
+  }
+
+  .badge {
+    background-color: #cc2062;
+    color: white;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin-left: .5rem;
+  }
